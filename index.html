@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin L - AI Automation Engineer & Researcher</title>
+    <meta name="description" content="AI Automation Engineer & Researcher with experience at Apple and Cisco, building intelligent systems, blockchain solutions, and personal infrastructure projects.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#14b8a6',
+                        'primary-dark': '#0d9488',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header/Hero Section -->
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-16 max-w-4xl">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">Kevin L</h1>
+            <p class="text-xl text-gray-600 mb-2">AI Automation Engineer & Researcher</p>
+            <p class="text-sm text-gray-500 mb-6">Previously: Apple, Cisco</p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                Driven by a passion for innovation, I build intelligent systems that push boundaries. With experience shipping products at Apple and Cisco, I've worked across healthcare, finance, startups, and enterprise platforms. Currently focused on AI automation, decentralized systems, and personal infrastructure—exploring how intelligent automation and blockchain can unlock new models for trust, efficiency, and real-world impact. Every challenge is an opportunity to build something meaningful.
+            </p>
+            <div class="flex gap-4 flex-wrap">
+                <a href="https://github.com/kevinl05" target="_blank" class="inline-flex items-center px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/kevin-l-9950605b/" target="_blank" class="inline-flex items-center px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <main class="container mx-auto px-6 py-16 max-w-4xl">
+        <h2 class="text-3xl font-bold mb-8">Projects</h2>
+
+        <div class="space-y-8">
+
+            <!-- Chronicle AI - Lifelogging System -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="mb-3">
+                        <h3 class="text-2xl font-semibold mb-2">Chronicle AI</h3>
+                        <div class="flex gap-2 flex-wrap mb-3">
+                            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-sm rounded-full">AI/ML</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">Computer Vision</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Home Infrastructure</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-4">
+                        Multi-tier AI system for real-time video/audio processing, transcription, and automated life journaling across home infrastructure.
+                    </p>
+                    <div class="mb-4">
+                        <p class="text-gray-700 mb-3">
+                            A distributed architecture spanning Raspberry Pi 5 (camera hub), Desktop (AI processing with dual GPUs), and Proxmox server (orchestration). Continuously monitors 3 camera feeds, transcribes audio via Whisper, analyzes video frames, and stores metadata. Uses n8n workflows to generate daily summaries and weekly recaps with Ollama LLM analysis, all queryable through OpenWebUI.
+                        </p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Status:</strong> Phase 1 active development (real-time processing implemented)</p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Architecture Highlights:</strong></p>
+                        <ul class="text-sm text-gray-600 list-disc list-inside space-y-1 ml-2">
+                            <li>7-day rolling video buffer with 1-day retention on Pi</li>
+                            <li>Dual-GPU allocation (transcription + vision processing)</li>
+                            <li>Event-driven MQTT pipeline for real-time analysis</li>
+                            <li>Automated daily batch processing and weekly summarization</li>
+                            <li>Modular design for future mobile inputs (RODE mic, iPhone streaming)</li>
+                        </ul>
+                        <p class="text-sm text-gray-600 mt-3"><strong>Tech Stack:</strong> Raspberry Pi 5 (8GB + Hailo-8L AI Hat), Desktop (Ryzen 7 7800X3D, RTX 4070S + RTX 5060Ti), Proxmox, Home Assistant, Frigate NVR, go2rtc, Mosquitto MQTT, OpenCV, Faster-Whisper, Ollama, n8n, PostgreSQL, OpenWebUI</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Neo4j AI Memory System -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="mb-3">
+                        <h3 class="text-2xl font-semibold mb-2">Neo4j AI Memory System (DarkLens AI Assistant)</h3>
+                        <div class="flex gap-2 flex-wrap mb-3">
+                            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-sm rounded-full">AI/ML</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Graph Database</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Python</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-4">
+                        Graph-based memory system for AI assistants that discovers behavioral patterns and builds confidence-weighted knowledge from user interactions.
+                    </p>
+                    <div class="mb-4">
+                        <p class="text-gray-700 mb-3">
+                            A sophisticated memory architecture using Neo4j to track user experiences, automatically discover boolean traits (preferences, habits, values), and generate contextually intelligent questions. Features temporal weighting (recent experiences matter more), confidence scoring, and decision tracking with boolean influences. Includes a complete REST API with FastAPI, background task processing, and production-ready error handling.
+                        </p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Status:</strong> Private system - In active development</p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Key Features:</strong></p>
+                        <ul class="text-sm text-gray-600 list-disc list-inside space-y-1 ml-2">
+                            <li>Automatic pattern/boolean discovery from natural language</li>
+                            <li>Confidence-based state management with evidence tracking</li>
+                            <li>Intelligent question generation (sophistication evolves with confidence)</li>
+                            <li>Decision logging with causal boolean linkage</li>
+                            <li>Production deployment with health monitoring</li>
+                        </ul>
+                        <p class="text-sm text-gray-600 mt-3"><strong>Tech Stack:</strong> Neo4j, FastAPI, Python, Pydantic, systemd, CORS middleware, CrewAI integration</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VolunteerChain -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="mb-3">
+                        <h3 class="text-2xl font-semibold mb-2">VolunteerChain</h3>
+                        <div class="flex gap-2 flex-wrap mb-3">
+                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">Blockchain</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">Web3</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Smart Contracts</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-4">
+                        Decentralized volunteer coordination platform using blockchain for transparent crypto donations and DAO governance.
+                    </p>
+                    <div class="mb-4">
+                        <p class="text-gray-700 mb-3">
+                            A Web3 application enabling volunteer organizations to form DAOs, manage projects, and receive cryptocurrency donations with full transparency. Features smart contract-based fund distribution and decentralized decision-making for volunteer initiatives.
+                        </p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Status:</strong> In development (85% complete)</p>
+                        <p class="text-sm text-gray-600"><strong>Tech Stack:</strong> Blockchain/Web3, Smart Contracts, DAO architecture, Cryptocurrency integration</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal4Cast.ai -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="mb-3">
+                        <h3 class="text-2xl font-semibold mb-2">Personal4Cast.ai</h3>
+                        <div class="flex gap-2 flex-wrap mb-3">
+                            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-sm rounded-full">AI/ML</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">FinTech</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-4">
+                        AI-powered personal finance assistant for budgeting, investment tracking, and financial planning.
+                    </p>
+                    <div class="mb-4">
+                        <p class="text-gray-700 mb-3">
+                            Smart finance app using AI to analyze spending patterns, suggest budget optimizations, and provide personalized investment recommendations. Currently functional but undergoing security hardening and compliance review before public release.
+                        </p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Status:</strong> In development - Security hardening phase</p>
+                        <p class="text-sm text-gray-600"><strong>Tech Stack:</strong> AI/ML, Financial APIs, Secure data handling, Budget optimization algorithms</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KloakOfInvisibility -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="mb-3">
+                        <h3 class="text-2xl font-semibold mb-2">KloakOfInvisibility</h3>
+                        <div class="flex gap-2 flex-wrap mb-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-800 text-sm rounded-full">iOS</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Swift</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-800 text-sm rounded-full">Privacy</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-4">
+                        iOS app for removing EXIF metadata from images to protect user privacy.
+                    </p>
+                    <div class="mb-4">
+                        <p class="text-gray-700 mb-3">
+                            A mobile application that strips location data, camera information, and other metadata from photos before sharing, giving users control over their digital footprint.
+                        </p>
+                        <p class="text-sm text-gray-600"><strong>Tech Stack:</strong> iOS, Swift, EXIF metadata manipulation</p>
+                    </div>
+                    <div class="flex gap-3 flex-wrap">
+                        <a href="#" target="_blank" class="text-primary hover:text-primary-dark font-medium inline-flex items-center">
+                            <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+                            App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gravemind Studios -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="mb-3">
+                        <h3 class="text-2xl font-semibold mb-2">Gravemind Studios - AI Game Generator</h3>
+                        <div class="flex gap-2 flex-wrap mb-3">
+                            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-sm rounded-full">AI/ML</span>
+                            <span class="px-3 py-1 bg-pink-100 text-pink-800 text-sm rounded-full">Game Dev</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">Procedural Gen</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-4">
+                        2D game generation system using AI to create playable games from text descriptions.
+                    </p>
+                    <div class="mb-4">
+                        <p class="text-gray-700 mb-3">
+                            Building machine learning models capable of procedurally generating 2D game assets, mechanics, and level designs from natural language prompts. Collaborative project exploring creative AI applications in game development.
+                        </p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Status:</strong> In development - Not public</p>
+                        <p class="text-sm text-gray-600"><strong>Tech Stack:</strong> Machine Learning, Procedural Generation, 2D Game Development, AI model training</p>
+                    </div>
+                    <div class="flex gap-3 flex-wrap">
+                        <a href="https://gravemindstudios.com" target="_blank" class="text-primary hover:text-primary-dark font-medium inline-flex items-center">
+                            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                            Gravemind Studios
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Pet Monitor -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="mb-3">
+                        <h3 class="text-2xl font-semibold mb-2">AI Pet Monitor</h3>
+                        <div class="flex gap-2 flex-wrap mb-3">
+                            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-sm rounded-full">AI/ML</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">Computer Vision</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">TensorFlow</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-4">
+                        TensorFlow-based computer vision system monitoring dog food and water levels with automated alerts.
+                    </p>
+                    <div class="mb-4">
+                        <p class="text-gray-700 mb-3">
+                            Custom-trained object detection model using TensorFlow to track pet bowl status in real-time, sending notifications when food/water needs refilling.
+                        </p>
+                        <p class="text-sm text-gray-600 mb-2"><strong>Status:</strong> Personal use - Not public</p>
+                        <p class="text-sm text-gray-600"><strong>Tech Stack:</strong> TensorFlow, Python, OpenCV, Computer Vision</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-16 py-8 border-t">
+        <div class="container mx-auto px-6 max-w-4xl text-center text-gray-600">
+            <p>&copy; 2025 Kevin L. Built with HTML, CSS, and Tailwind.</p>
+        </div>
+    </footer>
+</body>
+</html>
